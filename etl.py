@@ -30,7 +30,7 @@ df_filtered.write\
 .option("driver", "com.mysql.cj.jdbc.Driver")\
 .option("dbtable", "AQI")\
 .option("user", "root") \
-.option("password", "sumit@123") \
+.option("password", "YOUR_ROOT_PASSWORD") \
 .mode("overwrite") \
 .save()
 
