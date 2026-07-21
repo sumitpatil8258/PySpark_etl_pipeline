@@ -4,7 +4,7 @@ services:
     container_name: mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: sumit@123
+      MYSQL_ROOT_PASSWORD: "YOUR_ROOT_PASSWORD"
       MYSQL_DATABASE: pharmacydb
     ports:
       - "3307:3306"
