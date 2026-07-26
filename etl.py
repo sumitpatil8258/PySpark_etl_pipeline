@@ -20,7 +20,7 @@ df = df.dropna()
 df = df.dropDuplicates()
 df1 = df.select("NAME","HUMIDITY","TEMPRATURE_MAX")
 df_filtered = df1.filter((col("HUMIDITY") > 20) & (col("TEMPRATURE_MAX" )> 40))
-df_filtered.show()
+
 
 
 # LOAD
