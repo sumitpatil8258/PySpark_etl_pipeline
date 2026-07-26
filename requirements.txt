@@ -1,0 +1,6 @@
+- Windows 11 + WSL2 (Ubuntu 24.04)
+- Python 3.11
+- Apache Spark 3.5.1
+- Java 11
+- Docker Desktop
+- MySQL 8.4 Docker container (port 3307)
