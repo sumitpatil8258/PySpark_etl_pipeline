@@ -13,7 +13,6 @@ df = spark.read.csv(
     inferSchema=True
 )
 
-#df.show()
 
 # TRANSFORM
 df = df.dropna()
